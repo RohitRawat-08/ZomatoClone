@@ -1,0 +1,530 @@
+@media screen and (max-width:1237px) {
+
+    .Top .TopUp .text .discover{
+        /* border :solid red ; */
+        font-size: 33px;
+    }
+
+}
+
+
+@media screen and (max-width:1050px) {
+
+    /* .Collections .text .btext{
+        font-size: 32px;
+    }
+    
+    .Collections .text .stext div{
+        font-size: 16px;
+    }
+    .Collections .text .stext div:nth-child(2){
+        font-size: 16px;
+    } */
+    
+    
+    .footer .ftop .ftopleft{
+        /* border: solid red; */
+        width: 25%;
+    }
+
+    .footer .fmiddle .middlecontent .one .main{
+        font-size: 15px;
+    }
+    .footer .fmiddle .middlecontent .one .subdiv i{
+        /* border: solid blue; */
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+
+    
+    /* .Collections .text .stext div{
+        font-size: 14px;
+    }
+    .Collections .text .stext div:nth-child(2){
+        font-size: 14px;
+    } */
+   
+    
+    .PopularLocalities .Delhi{
+        padding-left:20px ;
+    }
+    
+    .footer .ftop .ftopright{
+        margin-right: 40px;
+    }
+    
+    .footer .ftop .ftopleft{
+        /* border: solid blue; */
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    
+    
+    .Top .TopUp .nav .navright{
+    padding-right: 30px;
+
+    }
+
+    .Top .TopUp .text .discover{
+        /* border :solid red ; */
+        font-size: 28px;
+    }
+    
+    
+    
+    
+    /*collections  */
+    
+   
+    .Collections .text .stext div{
+        font-size: 15px;
+    }
+    .Collections .text .stext div:nth-child(2){
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    /*PopularLocalities  */
+
+    .PopularLocalities .Delhi{
+        font-size: 30px;
+    }
+
+    .PopularLocalities .popplaces #name{
+        /* border: solid red; */
+        font-size: 18px;
+    }
+
+    .PopularLocalities .popplaces #place{
+        font-size: 15px;
+    }
+
+    .PopularLocalities .popplaces #namemore{
+        font-size: 17px;
+    }
+
+
+
+
+    /* form */
+
+
+    .GetApp .content{
+        width:550px
+    }
+
+    .GetApp .content .form .btext{
+        font-size: 25px;
+    }
+
+    .GetApp .content .form .stext{
+        font-size: 15px;
+    }
+
+    .GetApp .content .form form{
+        height: 30%;
+    }
+
+    .GetApp .content .form form .fill{
+        height: 70%;
+        /* border: solid green; */
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .GetApp .content .form form .select{
+        height: 30%;
+    }
+
+    .GetApp .content .form form .fill input{
+        width: 100%;
+        border-radius: 5px;
+
+    }
+
+
+    .GetApp .content .form form .fill div{
+    font-size: 18px;
+    width: 55%;
+    border-radius: 5px;
+    }
+
+
+    .GetApp .content .download .img1{
+        /* border: solid blueviolet; */
+        width: 50%;
+    }
+
+    .GetApp .content .download .img2{
+        /* border: solid blueviolet; */
+        width: 50%;
+    }
+
+    .footer .fbottom span{
+        font-size: 15px;
+    }
+
+    .footer .ftop .ftopright .lang i{
+        display: none;
+    }
+    .footer .ftop .ftopright .India i{
+        display: none
+    }
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    
+    .Top .TopDown .order .text .btext{
+        font-size: 17px;
+    }
+    
+    .Top .TopDown .order .text .stext{
+        font-size: 14px;
+    }
+    .footer .ftop .ftopleft{
+        padding-left: 20px;
+        width: 40%;
+    }
+    
+    
+    
+    .footer{
+        /* border: solid pink; */
+        height: 650px;
+    }
+
+    .footer .ftop{
+        height: 13%;
+    }
+    .footer .fmiddle{
+        height: 80%;
+    }
+    .footer .fbottom{
+        height: 7%;
+    }
+    .footer .fmiddle .middlecontent{
+        height: 100%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2,auto);
+        /* border: solid gold; */
+        gap:0px 0px;
+    }
+
+   
+    .footer .fmiddle .middlecontent .one{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width:650px){
+    
+    .Top .TopUp .nav{
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width:560px){
+    
+    .footer .ftop .ftopleft{
+        width: 50%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:650px){
+    .GetApp .content{
+        width:100%
+    }
+    .GetApp .content .image{
+        display: none;
+    }
+    
+    .PopularLocalities{
+        height: 800px;
+    }
+    .PopularLocalities .Delhi{
+        height: 12%;
+    }
+
+    .PopularLocalities .popplaces{
+        height: 85%;
+    }
+    .PopularLocalities .popplaces{
+        grid-template-columns: repeat(1,1fr); 
+        grid-template-rows: repeat(9,1fr); 
+    }
+
+
+
+    .Top{
+        height:800px;
+    }
+
+    .Top .TopUp{
+        height: 50%;
+    }
+
+    .Top .TopDown{
+        height: 50%;
+        /* flex-wrap: wrap; */
+        display: grid;
+        /* border: solid blueviolet; */
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(2,1fr);
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .Top .TopDown .order{
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+
+    
+    .Collections{
+        height: 750px;
+    }
+    .Collections .text{
+        height: 12%;
+    }
+
+    .Collections .images{
+        height: 88%;
+        display: grid;
+        padding-top: 20px;
+        grid-template-columns: repeat(2,auto); 
+        grid-template-rows: repeat(1,auto);
+        gap: 15px 0px;
+        padding-left: 0px;
+       justify-content: space-around;
+    }
+    .Collections .images .imgs1{
+        width: 100%;
+        height: 100%;
+        padding-left: -10px;
+    }
+    .Collections .images .imgs2{
+        height: 100%;
+        width: 100%;
+    }
+    .Collections .images .imgs3{
+        height: 100%;
+        width: 100%;
+    }
+    .Collections .images .imgs4{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:475px){
+
+
+    .Collections .text .stext div:nth-child(2){
+        /* border: solid blue; */
+        font-size: 11px;
+    }
+
+
+
+
+    .footer{
+        height: 700px;
+    }
+
+    .footer .fmiddle{
+        height: 70%;
+    }
+
+    .footer .fbottom{
+        height: 10%;
+    }
+    .footer .ftop .ftopleft .zomato{
+        /* border: solid red; */
+        text-align: start;
+    }
+    
+    .footer .ftop .ftopleft{
+        justify-content: start;
+        display: flex;
+        width: 100%;
+        align-items: start;
+    }
+    .footer .ftop{
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .footer .ftop .ftopright{
+        width: 100%;
+        /* border: solid silver; */
+        margin-right: 0px;
+        display: flex;
+        justify-content: start;
+
+    }
+    .footer .ftop .ftopright .India{
+        width: 120px;
+        height: 40px;
+    }
+    .footer .ftop .ftopright .lang{
+        width: 130px;
+        height: 40px;
+    }
+
+    .footer .ftop .ftopright .lang i{
+        display: flex;
+    }
+    .footer .ftop .ftopright .India i{
+        display: flex
+    }
+}
+
+
+@media screen and (max-width:435px){
+   
+    .GetApp .content .form{
+        width: 80%;
+        
+    }
+
+    .Collections{
+        height: 1300px;
+    }
+    .Collections .text{
+        height: 8%;
+    }
+    .Collections .text .stext div:nth-child(2){
+        /* border: solid blue; */
+        display: none;
+    }
+    
+    .Collections .images{
+        height: 92%;
+        display: grid;
+        padding-top: 20px;
+        grid-template-columns: repeat(1,auto); 
+        grid-template-rows: repeat(4,280px);
+        gap: 15px 0px;
+        padding-left: 0px;
+       justify-content: space-around;
+    }
+    .Collections .images .imgs1{
+        width: 100%;
+        height: 100%;
+        padding-left: -10px;
+    }
+    .Collections .images .imgs2{
+        height: 100%;
+        width: 100%;
+    }
+    .Collections .images .imgs3{
+        height: 100%;
+        width: 100%;
+    }
+    .Collections .images .imgs4{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .footer .fmiddle .middlecontent>:last-child{
+        /* border: solid blue; */
+        display: none;
+    }
+
+    .footer .fmiddle .middlecontent{
+        height: 100%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        /* border: solid gold; */
+        gap:0px 0px;
+    }
+
+    .Top .TopUp .text .discover{
+        font-size: 20px;
+    }
+    .Top .TopDown .order .text .btext{
+        font-size: 20px;
+    }
+    .Top .TopDown .order .text .stext{
+        /* border: solid brown; */
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .PopularLocalities .Delhi{
+        font-size: 25px;
+    }
+    .GetApp .content .form{
+        width: 90%;   
+    }
+}
+
+@media screen and (max-width:300px){
+    .Explore .box .boxs{
+        font-size: 15px;
+    }
+
+    .Top{
+        width: 300px;
+    }
+
+    .Collections{
+        width: 300px;
+    }
+
+    .PopularLocalities{
+        width: 300px;
+    }
+
+    .GetApp{
+        width: 300px;
+    }
+
+    .Explore{
+        width: 300px;
+    }
+    .footer{
+        width: 300px;
+    }
+
+}
